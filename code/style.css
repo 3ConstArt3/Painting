@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap");
+
+body {
+  margin: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(206, 185, 185, 0.781),
+    rgba(155, 64, 64, 0.577),
+    rgba(206, 185, 185, 0.781)
+  );
+}
+
+.header {
+  width: 72%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0.6em;
+}
+
+.header h1 {
+  margin: 0 auto;
+  padding: 0.3em;
+  font-family: "Finger Paint", sans-serif;
+  font-weight: 400;
+  font-size: xx-large;
+  color: rgba(99, 41, 41, 0.822);
+  text-shadow: 0 0 12px rgba(168, 75, 75, 0.781);
+}
+
+.header p {
+  margin: 0 auto;
+  font-family: cursive;
+  color: rgba(168, 75, 75, 0.781);
+}
+
+.clue {
+  color: rgba(99, 41, 41, 0.724);
+  font-style: oblique;
+  font-weight: bolder;
+  text-shadow: 0 0 12px rgba(168, 75, 75, 0.781);
+}
+
+.outline {
+  margin: 2.1em auto;
+  width: 420px;
+  padding: 0.6em;
+  height: 513px;
+  border: 9px double rgba(18, 17, 17, 0.911);
+  filter: blur(0.06em);
+  border-radius: 3px 6px 6px 12px;
+}
+
+.canva {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(90, 44, 44, 0.39);
+  border: 1px dotted rgba(90, 44, 44, 0.98);
+  box-shadow: 0 0 2.1em rgba(90, 44, 44, 0.45);
+  border-radius: 3px;
+  filter: blur(0.09em);
+}
+
+.shape1 {
+  width: 390px;
+  margin: 0.9em auto;
+  height: 126px;
+  background-color: rgba(192, 163, 125, 0.757);
+  border-radius: 12px 12px 21px 12px;
+  filter: blur(0.2em);
+  box-shadow: 0 0 12px rgba(192, 163, 125, 0.757);
+  transform: rotate(1.8deg);
+}
+
+.shape2 {
+  width: 414px;
+  margin: 0.9em auto;
+  height: 171px;
+  background-color: rgba(166, 67, 67, 0.757);
+  border-radius: 12px 6px 21px 9px;
+  filter: blur(0.06em);
+  box-shadow: 0 0 12px rgba(166, 67, 67, 0.757);
+  transform: rotate(-0.9deg);
+}
+
+.shape3 {
+  width: 390px;
+  margin: 0.9em auto;
+  height: 150px;
+  background-color: rgba(159, 141, 69, 0.829);
+  border-radius: 30px 9px 30px 3px;
+  filter: blur(0.2em);
+  box-shadow: 0 0 12px rgba(159, 141, 69, 0.829);
+  transform: rotate(0.3deg);
+}
